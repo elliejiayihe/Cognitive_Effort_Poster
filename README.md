@@ -4,10 +4,12 @@ This repository reproduces the figures and analyses from my undergraduate resear
 The code generates the four key figures and statistical results presented in the poster.
 
 
+
 ## Background
 
 Human memory performance is influenced by both the amount of **cognitive effort** invested during encoding and the **emotional valence** of the context.  
 In this project, we investigated whether the **self-rated difficulty** of encoding (easy vs hard) and the **emotional condition** (negative vs neutral) would shape subsequent recognition memory accuracy for **words** and **word pairs**.
+
 
 
 ## Hypotheses
@@ -21,6 +23,7 @@ In this project, we investigated whether the **self-rated difficulty** of encodi
    - Easy pairs: Negative > Neutral (significant benefit for negative)  
 
 
+
 ## Methods
 
 - Dataset: `taskanalysis_copy.xlsx` (Sheet1)  
@@ -29,6 +32,7 @@ In this project, we investigated whether the **self-rated difficulty** of encodi
 - Recognition memory was tested for **single words** and **word pairs**.  
 - Dependent measures: `itemhit` (word hit rate) and `pairhit` (pair hit rate).  
 - Analyses: Welch’s independent t-tests, with group means ± standard error (SE).  
+
 
 
 ## Results
@@ -40,7 +44,7 @@ In this project, we investigated whether the **self-rated difficulty** of encodi
 
 These outcomes replicate the findings reported on the poster.
 
----
+
 
 ## Figures
 
@@ -51,7 +55,7 @@ Running the notebook or script generates four `.png` figures:
 - `Fig2A_EasyWord_Condition.png`  
 - `Fig2B_EasyPair_Condition.png`  
 
----
+
 
 ## Files
 
@@ -60,7 +64,8 @@ Running the notebook or script generates four `.png` figures:
 - `taskanalysis_copy.xlsx` — Data file (kept local).
 - `Cognitive Effort Poster _2023.pdf` - Poster presented with figures
 
----
+
+
 ## Citation 
 He, E.*, Nelson A.* (2023, August 4). \textit{The Effects of Cognitive Effort and Post-Encoding Emotional Arousal on Recognition Memory Performance} [poster presentation]. Summer Undergraduate Research Experience Symposium, Atlanta, Georgia, United States.
 
