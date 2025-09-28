@@ -3,14 +3,12 @@
 This repository reproduces the figures and analyses from my undergraduate research poster on **Cognitive Effort and Emotion Effects on Recognition Memory Performance** in August 2023.
 The code generates the four key figures and statistical results presented in the poster.
 
----
 
 ## Background
 
 Human memory performance is influenced by both the amount of **cognitive effort** invested during encoding and the **emotional valence** of the context.  
 In this project, we investigated whether the **self-rated difficulty** of encoding (easy vs hard) and the **emotional condition** (negative vs neutral) would shape subsequent recognition memory accuracy for **words** and **word pairs**.
 
----
 
 ## Hypotheses
 
@@ -22,7 +20,6 @@ In this project, we investigated whether the **self-rated difficulty** of encodi
    - Easy words: Negative > Neutral (expected, but not significant)  
    - Easy pairs: Negative > Neutral (significant benefit for negative)  
 
----
 
 ## Methods
 
@@ -33,7 +30,6 @@ In this project, we investigated whether the **self-rated difficulty** of encodi
 - Dependent measures: `itemhit` (word hit rate) and `pairhit` (pair hit rate).  
 - Analyses: Welch’s independent t-tests, with group means ± standard error (SE).  
 
----
 
 ## Results
 
